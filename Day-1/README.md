@@ -1,65 +1,56 @@
-#  First Steps into Infrastructure as Code (IaC)
+# 🚀 First Steps into Infrastructure as Code (IaC)
 
-This project documents my **first experience learning Infrastructure as Code (IaC)**, inspired by reading  
- *Terraform: Up & Running* by Yevgeniy Brikman.
-
-As a beginner in the cloud and DevOps space, this journey helped me understand how IaC simplifies infrastructure management by allowing us to **define, deploy, and manage cloud resources using code** — instead of manually clicking around cloud dashboards.
+Hi there!  
+This repository documents my first learning experience with **Infrastructure as Code (IaC)**, including setting up **Terraform**, **AWS**, and **Visual Studio Code (VSCode)** — inspired by the book *Terraform: Up & Running* by **Yevgeniy Brikman**.
 
 ---
 
 ##  What I Learned
 
-- **What is IaC?**
-  - IaC lets you manage and provision your infrastructure using code files.
-  - It ensures **consistency**, **repeatability**, and **version control** for cloud environments.
+###  What is IaC?
+Infrastructure as Code (IaC) is the practice of provisioning and managing cloud resources using configuration files instead of manual processes. It allows infrastructure to be:
 
-- **Why IaC is Important:**
-  -  Automates deployments
-  -  Makes environments reproducible
-  -  Integrates easily with version control (e.g., Git)
-  -  Reduces human error
+- **Version controlled**
+- **Repeatable**
+- **Automated**
+- **Collaborative**
 
-- **Getting Hands-On with Terraform:**
-  - Set up AWS CLI & credentials
-  - Installed Terraform locally
-  - Wrote my first `main.tf` file to provision AWS resources
-  - Learned how to use `terraform init`, `plan`, and `apply` effectively
+I broke this down in a beginner-friendly way in my blog post:  
+ [What is IaC and Why You Should Care (Even as a Beginner)](https://medium.com/@kennyjames104/what-is-iac-and-why-you-should-care-even-as-a-beginner-43be429fba5b)
 
 ---
 
-##  My IaC Write-Up
+## Setting Up My Environment
 
-I wrote a beginner-friendly blog post breaking down IaC and its benefits — perfect for those just getting started.
+While learning, I also documented my setup process step-by-step — from creating an AWS account to running Terraform in VSCode:
 
-[Read it here on Medium](https://medium.com/@kennyjames104/what-is-iac-and-why-you-should-care-even-as-a-beginner-43be429fba5b)
+- Installed Terraform locally
+- Installed and configured AWS CLI
+- Set up Visual Studio Code with the AWS Toolkit
+- Wrote and ran my first Terraform script
 
----
-
-##  Tools Used
-
-- [Terraform](https://www.terraform.io/)
-- [AWS CLI](https://aws.amazon.com/cli/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- AWS Free Tier Account
+Read the full guide here:  
+[From Zero to Cloud: Setting Up AWS with Terraform and VSCode](https://medium.com/@kennyjames104/from-zero-to-cloud-setting-up-aws-with-terraform-and-vscode-3ff0832267ae)
 
 ---
 
-##  What's Next?
+##  Resources That Helped
 
-I plan to:
-- Dive deeper into Terraform modules and state management
-- Learn more about CI/CD integrations with IaC
-- Explore real-world infrastructure deployments across multiple environments
-
----
-
-> “If you can code it, you can repeat it — and if you can repeat it, you can scale it.”  
-> — Me, after reading Terraform: Up & Running 😄
+-  *Terraform: Up & Running* by Yevgeniy Brikman
+-  HashiCorp Documentation (https://developer.hashicorp.com/terraform)
+-  AWS Docs & Free Tier (https://aws.amazon.com/free)
 
 ---
 
-##  Stay Connected
+## What's Next?
 
-Follow my journey and check out more write-ups on [Medium](https://medium.com/@kennyjames104)
+- Practice writing reusable Terraform modules
+- Learn about remote state and backend configuration
+- Explore deploying full stacks using Terraform + AWS
+
+---
+
+Thanks for stopping by! Feel free to explore, clone, and learn along.  
+Got feedback or resources to share? I'd love to connect.
 
 
